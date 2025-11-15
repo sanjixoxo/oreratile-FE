@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header.jsx';
-import AuthForm from './Authform.jsx';
+import AuthForm from './AuthForm.jsx';
 import PostForm from './Postform.jsx';
 import PostList from './Postlist.jsx';
-import PostDetail from './Postdetail.jsx';
+import PostDetail from './PostDetail.jsx';
 import Footer from './Footer.jsx';
 
 // Use environment variable for API URL, fallback to Render backend
