@@ -1,4 +1,4 @@
-/*import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { styles as sharedStyles } from './Styles.js';
 
 const API_URL = 'http://localhost:5000/api';
@@ -217,8 +217,8 @@ function PostForm({ user, post, onSuccess, onCancel }) {
   );
 }
 
-export default PostForm;*/
-import React, { useState } from 'react';
+export default PostForm;
+/*import React, { useState } from 'react';
 import { styles as sharedStyles } from './Styles.js';
 
 const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://oreratile-backend-4.onrender.com/api';
@@ -438,4 +438,4 @@ function PostForm({ user, post, onSuccess, onCancel }) {
   );
 }
 
-export default PostForm;
+export default PostForm;*/

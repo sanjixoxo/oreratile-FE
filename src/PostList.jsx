@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 
 const API_URL = 'http://localhost:5000/api';
 
@@ -322,8 +322,8 @@ function PostList({ posts, loading, onSelectPost, onEditPost, user }) {
   );
 }
 
-export default PostList;*/
-import React from 'react';
+export default PostList;
+/*import React from 'react';
 
 const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://oreratile-backend-4.onrender.com/api';
 const BASE_URL = import.meta.env.VITE_BASE_URL || 'https://oreratile-backend-4.onrender.com';
@@ -648,4 +648,4 @@ function PostList({ posts, loading, onSelectPost, onEditPost, user }) {
   );
 }
 
-export default PostList;
+export default PostList;*/

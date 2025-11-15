@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import Header from './Header.jsx';
-import AuthForm from './AuthForm.jsx';
-import PostForm from './Postform.jsx';
-import PostList from './Postlist.jsx';
-import PostDetail from './PostDetail.jsx';
-import Footer from './Footer.jsx';
 
 // Use environment variable for API URL, fallback to Render backend
-const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://oreratile-backend-4.onrender.com/api';
+import React, { useState, useEffect } from 'react';
+import Header from './Header.jsx';
+import AuthForm from './Authform.jsx';
+import PostForm from './PostForm.jsx';
+import PostList from './Postlist.jsx';
+import PostDetail from './Postdetail.jsx';
+import Footer from './Footer.jsx';
+
+const API_URL = 'http://localhost:5000/api';
 
 function App() {
   const [user, setUser] = useState(null);

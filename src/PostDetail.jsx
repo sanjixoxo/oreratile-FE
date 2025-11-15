@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 
 function PostDetail({ post, onBack }) {
   const styles = {
@@ -161,8 +161,8 @@ function PostDetail({ post, onBack }) {
   );
 }
 
-export default PostDetail;*/
-import React from 'react';
+export default PostDetail;
+/*import React from 'react';
 
 const BASE_URL = import.meta.env.VITE_BASE_URL || 'https://oreratile-backend-4.onrender.com';
 
@@ -327,4 +327,4 @@ function PostDetail({ post, onBack }) {
   );
 }
 
-export default PostDetail;
+export default PostDetail;*/
